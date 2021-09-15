@@ -50,5 +50,7 @@ else:
     print("You Don't! I'll give you a point though!")
     score += 1
 
+print("You got" + score + "points!")
 print("Anyways GoodBye!")
+
 
