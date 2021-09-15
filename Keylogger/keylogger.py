@@ -30,7 +30,6 @@ def write_file(keys):
 
 
 
-
 def on_release(key):
     if key == Key.esc:
         return False
