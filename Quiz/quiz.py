@@ -12,7 +12,7 @@ else:
 
 firstQ = input("What is one of the first Programming Languages to exist?")
 
-if firstQ == "Fourtran":
+if firstQ == "Basic":
     print("Nice you got that Correct Well done")
     score += 1
 
