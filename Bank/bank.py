@@ -39,7 +39,7 @@ print(walletbal)
 
 print("At your bank we can do a lot with your money we can withdraw and deposit ")
 
-choices = input("To withdraw press W to Deposit Press : ")
+choices = input("To withdraw press W to Deposit Press D: ")
 
 if choices == 'W':
     withdraw = int(input("How much would to like to withdraw: "))
