@@ -41,11 +41,20 @@ if viewbal == 'B':
 elif viewbal == 'W':
     print("You current wallet balance is")
     print(walletbal)
+
+if viewbal == 'B':
+    print("You current bank balance is")
+    print(bankbal)
+
+elif viewbal == 'W':
+    print("You current wallet balance is")
+    print(walletbal)
+    
     
 
 print("At your bank we can do a lot with your money we can withdraw and deposit ")
 
-choices = input("To withdraw press W to Deposit Press D")
+choices = input("To withdraw press W to Deposit Press D: ")
 
 if choices == 'W':
     withdraw = int(input("How much would to like to withdraw: "))
@@ -82,7 +91,7 @@ elif viewbal == 'W':
     print("You current wallet balance is")
     print(walletbal)
 
-choices = input("To withdraw press W to Deposit Press D")
+choices = input("To withdraw press W to Deposit Press D: ")
 
 if choices == 'W':
     withdraw = int(input("How much would to like to withdraw: "))
