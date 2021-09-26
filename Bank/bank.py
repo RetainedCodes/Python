@@ -30,31 +30,16 @@ print("Congrats I see a successful login!")
 
 bankbal = random.randint(0,100000)
 walletbal = random.randint(0,1000)
-bankAccNum = random.randint(0,123456789)
 
-viewbal = input("To view bank balance press B and to view wallet balance press W: ")
+print("Your bank balance is")
+print(bankbal)
+print("Your wallet balance is")
+print(walletbal)
 
-if viewbal == 'B':
-    print("You current bank balance is")
-    print(bankbal)
-
-elif viewbal == 'W':
-    print("You current wallet balance is")
-    print(walletbal)
-
-if viewbal == 'B':
-    print("You current bank balance is")
-    print(bankbal)
-
-elif viewbal == 'W':
-    print("You current wallet balance is")
-    print(walletbal)
-    
-    
 
 print("At your bank we can do a lot with your money we can withdraw and deposit ")
 
-choices = input("To withdraw press W to Deposit Press D: ")
+choices = input("To withdraw press W to Deposit Press D")
 
 if choices == 'W':
     withdraw = int(input("How much would to like to withdraw: "))
@@ -81,17 +66,13 @@ elif choices == 'D':
 else:
     print("I do not not what you want")
 
-viewbal = input("To view bank balance press B and to view wallet balance press W: ")
+print("Your bank balance is")
+print(bankbal)
+print("Your wallet balance is")
+print(walletbal)
 
-if viewbal == 'B':
-    print("You current bank balance is")
-    print(bankbal)
 
-elif viewbal == 'W':
-    print("You current wallet balance is")
-    print(walletbal)
-
-choices = input("To withdraw press W to Deposit Press D: ")
+choices = input("To withdraw press W to Deposit Press D")
 
 if choices == 'W':
     withdraw = int(input("How much would to like to withdraw: "))
