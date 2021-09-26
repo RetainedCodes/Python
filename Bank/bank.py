@@ -32,7 +32,7 @@ bankbal = random.randint(0,100000)
 walletbal = random.randint(0,1000)
 bankAccNum = random.randint(0,123456789)
 
-viewbal = input("To view bank balance press B and to view wallet balance press W")
+viewbal = input("To view bank balance press B and to view wallet balance press W: ")
 
 if viewbal == 'B':
     print("You current bank balance is")
@@ -72,7 +72,7 @@ elif choices == 'D':
 else:
     print("I do not not what you want")
 
-viewbal = input("To view bank balance press B and to view wallet balance press W")
+viewbal = input("To view bank balance press B and to view wallet balance press W: ")
 
 if viewbal == 'B':
     print("You current bank balance is")
