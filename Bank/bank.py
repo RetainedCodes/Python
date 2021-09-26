@@ -52,7 +52,7 @@ if choices == 'W':
         bankbal -= withdraw
         walletbal += withdraw
 
-elif choices == ': ':
+elif choices == 'D':
     deposit = int(input("How much would you like to deposit: "))
     if deposit > walletbal:
         print("Unable to deposit wallet balance is too low")
@@ -85,7 +85,7 @@ if choices == 'W':
         bankbal -= withdraw
         walletbal += withdraw
 
-elif choices == ': ':
+elif choices == 'D':
     deposit = int(input("How much would you like to deposit: "))
     if deposit > walletbal:
         print("Unable to deposit wallet balance is too low")
