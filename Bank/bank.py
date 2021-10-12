@@ -19,7 +19,7 @@ login1 = input("Enter your Username: ")
 if login1 == username:
     print("So far everything is valid")
 else:
-    print("Wrong Password!")
+    print("Wrong Username!")
 
 login2 = input("Enter your Password: ")
 
